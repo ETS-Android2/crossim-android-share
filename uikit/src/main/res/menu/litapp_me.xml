@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/more"
+        android:icon="@mipmap/ic_add"
+        android:title="@string/str_more"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/meQrcode"
+                android:icon="@mipmap/ic_create_group_cheat"
+                android:orderInCategory="100"
+                android:title="@string/my_qrcode"
+                app:iconTint="@color/colorPrimary"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+</menu>

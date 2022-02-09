@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:visibility="gone"
+        android:id="@+id/openspn"
+        style="@style/OptionItem"
+        android:background="@drawable/selector_common_item"
+        app:show_arrow_indicator="true"
+        android:layout_marginBottom="10dp"
+        app:start_src="@mipmap/cannon"
+        app:title="社联网社区" />
+
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:visibility="gone"
+        android:id="@+id/crossim"
+        style="@style/OptionItem"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/selector_common_item"
+        app:show_arrow_indicator="true"
+        app:start_src="@mipmap/crossim_litapp"
+        app:title="跨云IM" />
+
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:visibility="gone"
+        android:id="@+id/robotOptionItemView"
+        style="@style/OptionItem"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/selector_common_item"
+        app:show_arrow_indicator="true"
+        app:start_src="@mipmap/litapp"
+        app:title="机器人" />
+
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:visibility="gone"
+        android:id="@+id/channelOptionItemView"
+        style="@style/OptionItem"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/selector_common_item"
+        app:divider_align_to_title="false"
+        app:show_arrow_indicator="true"
+        app:start_src="@mipmap/ic_channel"
+        app:title="频道" />
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:visibility="gone"
+        android:id="@+id/cookbookOptionItemView"
+        style="@style/OptionItem"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/selector_common_item"
+        app:divider_align_to_title="false"
+        app:show_arrow_indicator="true"
+        app:start_src="@mipmap/ic_dev_docs"
+        app:title="开发手册" />
+
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:visibility="gone"
+        android:id="@+id/conferenceOptionItemView"
+        style="@style/OptionItem"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/selector_common_item"
+        app:divider_align_to_title="false"
+        app:show_arrow_indicator="true"
+        app:start_src="@mipmap/ic_dev_docs"
+        app:title="会议" />
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:visibility="gone"
+        android:id="@+id/litboyOptionItemView"
+        style="@style/OptionItem"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/selector_common_item"
+        app:show_arrow_indicator="true"
+        app:start_src="@mipmap/litapp"
+        app:title="小程序" />
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/more"
+        android:icon="@mipmap/ic_add"
+        android:title="@string/more"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/clear_cache"
+                android:icon="@mipmap/ic_create_group_cheat"
+                android:orderInCategory="100"
+                android:title="@string/clear_cache"
+                app:iconTint="@color/colorPrimary"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/litapp_qrcode"
+                android:icon="@mipmap/qr_code"
+                android:orderInCategory="100"
+                android:title="@string/litapp_qrcode"
+                app:iconTint="@color/colorPrimary"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+</menu>

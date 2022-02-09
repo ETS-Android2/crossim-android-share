@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">跨云共享</string>
+    <string name="app_init">跨云IM初始化中</string>
+    <string name="app_IM">跨云IM</string>
+    <string name="app_doc">跨云IM开发文档</string>
+    <string name="app_sn">跨云</string>
+
+    <string name="page_main">主页</string>
+    <string name="page_app">跨云</string>
+    <string name="page_contact">通信录</string>
+    <string name="page_me">我的</string>
+
+    <!--我-->
+    <string name="my_chat_account">账号:%1$s</string>
+    <string name="setting">设置</string>
+
+    <!--设置-->
+    <string name="new_message_remind">新消息提醒</string>
+    <string name="exit">退出登录</string>
+    <string name="logout">注销账户</string>
+
+    <!--关于-->
+    <string name="app_name_in_about">跨云即时通讯</string>
+    <string name="function_introduction">功能介绍</string>
+    <string name="complaint">投诉</string>
+    <string name="check_update">检查更新</string>
+    <string name="terms_of_use_and_privacy_policy">使用条款和隐私政策</string>
+    <string name="name">跨云社联网</string>
+    <string name="slogan">沟通如此简单</string>
+
+</resources>
